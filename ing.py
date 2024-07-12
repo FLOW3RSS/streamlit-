@@ -4,7 +4,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # 엑셀 파일 경로 설정 (실제 파일 경로로 변경하세요)
-EXCEL_FILE_PATH = '수탐 엑셀.xlsx'
+EXCEL_FILE_PATH = '주히.xlsx'
 
 # 엑셀 파일 로드 및 데이터 전처리
 @st.cache_data
